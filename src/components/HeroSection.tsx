@@ -52,11 +52,11 @@ const HeroSection = () => {
           {/* Image */}
           <div className="order-1 md:order-2 flex justify-center">
             <div className="animate-fade-up relative">
-              <div className="w-64 h-64 sm:w-72 sm:h-72 rounded-full overflow-hidden border-4 border-primary/20 glow-shadow">
+                <div className="w-64 h-64 sm:w-72 sm:h-72 rounded-full overflow-hidden border-4 border-primary/20 glow-shadow">
                 <img
                   src={profileImg}
                   alt="Khushi Saini"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               <div className="absolute -bottom-3 -right-3 bg-card border border-border rounded-xl px-3 py-2 shadow-lg">
