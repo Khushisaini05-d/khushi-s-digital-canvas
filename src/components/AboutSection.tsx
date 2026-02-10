@@ -1,10 +1,10 @@
-import { BookOpen, Palette, Code2, Lightbulb } from "lucide-react";
+import { BookOpen, Code2, Lightbulb } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const highlights = [
   { icon: BookOpen, label: "CS Student", desc: "BSc Computer Science" },
   { icon: Code2, label: "Coder", desc: "C, C++, Python" },
-  { icon: Palette, label: "Artist", desc: "Art & Line Drawing" },
+  
   { icon: Lightbulb, label: "Learner", desc: "Always Growing" },
 ];
 
@@ -33,10 +33,6 @@ const AboutSection = () => {
                 My interests span across programming languages like C, C++, and Python. I love solving
                 problems and figuring out how things work under the hood. I'm currently expanding my
                 skill set into web development and am excited to build real-world projects.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Beyond coding, I have a creative side — I enjoy art and line drawing, which helps me
-                think visually and approach problems from unique perspectives.
               </p>
             </div>
 
