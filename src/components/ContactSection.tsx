@@ -16,48 +16,51 @@ const ContactSection = () => {
           </p>
 
           <div className="max-w-lg mx-auto space-y-4">
-              <a
-                href="mailto:khushisaini1757@gmail.com"
-                className="flex items-center gap-3 p-4 rounded-xl bg-card border border-border hover:border-primary/30 transition-all group"
-              >
-                <div className="p-2 rounded-lg bg-accent group-hover:bg-primary/10 transition-colors">
-                  <Mail size={18} className="text-primary" />
-                </div>
-                <div>
-                  <p className="text-xs text-muted-foreground">Email</p>
-                  <p className="text-sm font-medium">khushisaini1757@gmail.com</p>
-                </div>
-              </a>
+            <a
+              href="mailto:khushisaini1757@gmail.com"
+              className={`flex items-center gap-3 p-4 rounded-xl bg-card border border-border hover:border-primary/30 hover:glow-shadow hover:-translate-y-1 transition-all duration-300 group ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
+              style={{ transitionDelay: "200ms" }}
+            >
+              <div className="p-2 rounded-lg bg-accent group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                <Mail size={18} className="text-primary" />
+              </div>
+              <div>
+                <p className="text-xs text-muted-foreground">Email</p>
+                <p className="text-sm font-medium">khushisaini1757@gmail.com</p>
+              </div>
+            </a>
 
-              <a
-                href="https://www.linkedin.com/in/khushi-saini-a73392334"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 p-4 rounded-xl bg-card border border-border hover:border-primary/30 transition-all group"
-              >
-                <div className="p-2 rounded-lg bg-accent group-hover:bg-primary/10 transition-colors">
-                  <Linkedin size={18} className="text-primary" />
-                </div>
-                <div>
-                  <p className="text-xs text-muted-foreground">LinkedIn</p>
-                  <p className="text-sm font-medium">Khushi Saini</p>
-                </div>
-              </a>
+            <a
+              href="https://www.linkedin.com/in/khushi-saini-a73392334"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`flex items-center gap-3 p-4 rounded-xl bg-card border border-border hover:border-primary/30 hover:glow-shadow hover:-translate-y-1 transition-all duration-300 group ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
+              style={{ transitionDelay: "350ms" }}
+            >
+              <div className="p-2 rounded-lg bg-accent group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                <Linkedin size={18} className="text-primary" />
+              </div>
+              <div>
+                <p className="text-xs text-muted-foreground">LinkedIn</p>
+                <p className="text-sm font-medium">Khushi Saini</p>
+              </div>
+            </a>
 
-              <a
-                href="https://www.instagram.com/khushi_saini16?igsh=Zjg3ZHEyczl0eWl1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 p-4 rounded-xl bg-card border border-border hover:border-primary/30 transition-all group"
-              >
-                <div className="p-2 rounded-lg bg-accent group-hover:bg-primary/10 transition-colors">
-                  <Instagram size={18} className="text-primary" />
-                </div>
-                <div>
-                  <p className="text-xs text-muted-foreground">Instagram</p>
-                  <p className="text-sm font-medium">@khushi_saini16</p>
-                </div>
-              </a>
+            <a
+              href="https://www.instagram.com/khushi_saini16?igsh=Zjg3ZHEyczl0eWl1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`flex items-center gap-3 p-4 rounded-xl bg-card border border-border hover:border-primary/30 hover:glow-shadow hover:-translate-y-1 transition-all duration-300 group ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
+              style={{ transitionDelay: "500ms" }}
+            >
+              <div className="p-2 rounded-lg bg-accent group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                <Instagram size={18} className="text-primary" />
+              </div>
+              <div>
+                <p className="text-xs text-muted-foreground">Instagram</p>
+                <p className="text-sm font-medium">@khushi_saini16</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>

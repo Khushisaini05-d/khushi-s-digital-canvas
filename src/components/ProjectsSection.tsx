@@ -12,8 +12,8 @@ const ProjectsSection = () => {
             My <span className="text-gradient">Projects</span>
           </h2>
 
-          <div className="text-center p-12 rounded-2xl bg-card border border-border">
-            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-accent flex items-center justify-center">
+          <div className="text-center p-12 rounded-2xl bg-card border border-border hover:border-primary/20 hover:glow-shadow transition-all duration-500">
+            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-accent flex items-center justify-center animate-[bounce_3s_ease-in-out_infinite]">
               <Rocket size={28} className="text-primary" />
             </div>
             <h3 className="font-display text-lg font-semibold mb-2">Coming Soon!</h3>

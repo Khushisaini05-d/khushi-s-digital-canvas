@@ -36,7 +36,7 @@ const SkillsSection = () => {
                 </div>
                 <div className="h-2.5 bg-secondary rounded-full overflow-hidden">
                   <div
-                    className="h-full rounded-full transition-all duration-1000 ease-out"
+                    className="h-full rounded-full transition-all duration-1000 ease-out relative after:absolute after:inset-0 after:bg-gradient-to-r after:from-transparent after:via-white/20 after:to-transparent after:animate-[shimmer_2s_infinite] after:rounded-full"
                     style={{
                       width: isVisible ? `${skill.level}%` : "0%",
                       background: "var(--hero-gradient)",

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Made with <Heart size={14} className="text-primary" /> by Khushi Saini
+            Made with <Heart size={14} className="text-primary animate-[pulse_1.5s_ease-in-out_infinite]" /> by Khushi Saini
           </p>
 
           <div className="flex items-center gap-4">
