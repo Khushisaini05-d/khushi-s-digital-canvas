@@ -56,7 +56,7 @@ const HeroSection = () => {
                 <img
                   src={profileImg}
                   alt="Khushi Saini"
-                  className="w-full h-full object-cover object-[center_15%]"
+                  className="w-full h-full object-cover object-[center_25%]"
                 />
               </div>
               <div className="absolute -bottom-3 -right-3 bg-card border border-border rounded-xl px-3 py-2 shadow-lg">
