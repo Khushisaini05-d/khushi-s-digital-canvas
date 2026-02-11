@@ -29,7 +29,7 @@ const HeroSection = () => {
             </p>
 
             <p className="animate-fade-up-delay-2 text-muted-foreground mb-8 max-w-lg leading-relaxed">
-              A passionate BSc Computer Science student from India, exploring the world of technology
+              A passionate BSc Computer Science student, exploring the world of technology
               and building skills in programming, problem solving, and creative thinking.
             </p>
 
@@ -51,17 +51,17 @@ const HeroSection = () => {
 
           {/* Image */}
           <div className="order-1 md:order-2 flex justify-center">
-            <div className="animate-fade-up relative">
-                <div className="w-64 h-64 sm:w-72 sm:h-72 rounded-full overflow-hidden border-4 border-primary/20 glow-shadow">
+            <div className="animate-fade-up relative group">
+              <div className="w-64 h-64 sm:w-72 sm:h-72 rounded-full overflow-hidden border-4 border-primary/20 glow-shadow transition-transform duration-500 group-hover:scale-105 group-hover:border-primary/40">
                 <img
                   src={profileImg}
                   alt="Khushi Saini"
-                  className="w-full h-full object-cover object-[center_25%]"
+                  className="w-full h-full object-cover object-[center_25%] transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
-              <div className="absolute -bottom-3 -right-3 bg-card border border-border rounded-xl px-3 py-2 shadow-lg">
-                <span className="text-xs font-medium text-muted-foreground">📍 India</span>
-              </div>
+              {/* Decorative rings */}
+              <div className="absolute inset-0 rounded-full border-2 border-primary/10 scale-110 group-hover:scale-125 transition-transform duration-700 pointer-events-none" />
+              <div className="absolute inset-0 rounded-full border border-primary/5 scale-125 group-hover:scale-[1.4] transition-transform duration-1000 pointer-events-none" />
             </div>
           </div>
         </div>

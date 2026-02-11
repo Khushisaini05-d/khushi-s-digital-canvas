@@ -25,7 +25,7 @@ const AboutSection = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-5">
               <p className="text-foreground leading-relaxed">
-                I'm <strong>Khushi Saini</strong>, a BSc Computer Science student based in India. I'm currently
+                I'm <strong>Khushi Saini</strong>, a BSc Computer Science student. I'm currently
                 at the beginning of my tech journey, and I'm absolutely fascinated by how technology
                 shapes our world.
               </p>
