@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Instagram } from "lucide-react";
+import { Mail, Linkedin, Instagram, Github } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const ContactSection = () => {
@@ -59,6 +59,22 @@ const ContactSection = () => {
               <div>
                 <p className="text-xs text-muted-foreground">Instagram</p>
                 <p className="text-sm font-medium">@khushi_saini16</p>
+              </div>
+            </a>
+
+            <a
+              href="https://github.com/Khushisaini05-d"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`flex items-center gap-3 p-4 rounded-xl bg-card border border-border hover:border-primary/30 hover:glow-shadow hover:-translate-y-1 transition-all duration-300 group ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
+              style={{ transitionDelay: "650ms" }}
+            >
+              <div className="p-2 rounded-lg bg-accent group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                <Github size={18} className="text-primary" />
+              </div>
+              <div>
+                <p className="text-xs text-muted-foreground">GitHub</p>
+                <p className="text-sm font-medium">Khushisaini05-d</p>
               </div>
             </a>
           </div>

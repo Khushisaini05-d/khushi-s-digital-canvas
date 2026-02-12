@@ -40,12 +40,12 @@ const AboutSection = () => {
               {highlights.map((item, i) => (
                 <div
                   key={item.label}
-                  className={`p-5 rounded-xl bg-card border border-border hover:border-primary/30 hover:glow-shadow transition-all duration-300 ${
+                  className={`group p-5 rounded-xl bg-card border border-border hover:border-primary/30 hover:glow-shadow hover:-translate-y-2 transition-all duration-300 ${
                     isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
                   }`}
                   style={{ transitionDelay: `${i * 100 + 200}ms` }}
                 >
-                  <item.icon size={24} className="text-primary mb-3" />
+                  <item.icon size={24} className="text-primary mb-3 group-hover:scale-110 transition-transform duration-300" />
                   <h3 className="font-display font-semibold text-sm mb-1">{item.label}</h3>
                   <p className="text-xs text-muted-foreground">{item.desc}</p>
                 </div>
