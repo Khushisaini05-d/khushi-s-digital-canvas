@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Instagram, Heart } from "lucide-react";
+import { Mail, Linkedin, Instagram, Heart, Github } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -30,10 +30,19 @@ const Footer = () => {
               href="https://www.instagram.com/khushi_saini16?igsh=Zjg3ZHEyczl0eWl1"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className="text-muted-foreground hover:text-primary hover:scale-110 transition-all duration-300"
               aria-label="Instagram"
             >
               <Instagram size={18} />
+            </a>
+            <a
+              href="https://github.com/Khushisaini05-d"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary hover:scale-110 transition-all duration-300"
+              aria-label="GitHub"
+            >
+              <Github size={18} />
             </a>
           </div>
 
